@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9d70ef73-ee0b-4abf-b97a-3389eff38ed5/dafocc2-68e82b71-656c-4cd6-af5f-0da8405b21d4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlkNzBlZjczLWVlMGItNGFiZi1iOTdhLTMzODllZmYzOGVkNVwvZGFmb2NjMi02OGU4MmI3MS02NTZjLTRjZDYtYWY1Zi0wZGE4NDA1YjIxZDQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3KuhiajpeZadM_GS-I_5eK_0c8sbEXELWn1Uvt4K1CI");
+    /*background-image: url("https://miro.medium.com/v2/resize:fit:1358/1*oFxTSpWqSMZCP2XTTbl5lg.gif");*/
+    background-size: cover;
+}
+#game{
+    width: 80vw;
+    height: 38vw;
+    border: 2px solid white;
+    margin: auto;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9d70ef73-ee0b-4abf-b97a-3389eff38ed5/dafocc2-68e82b71-656c-4cd6-af5f-0da8405b21d4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlkNzBlZjczLWVlMGItNGFiZi1iOTdhLTMzODllZmYzOGVkNVwvZGFmb2NjMi02OGU4MmI3MS02NTZjLTRjZDYtYWY1Zi0wZGE4NDA1YjIxZDQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3KuhiajpeZadM_GS-I_5eK_0c8sbEXELWn1Uvt4K1CI");
+    /*background-image: url("https://miro.medium.com/v2/resize:fit:1358/1*oFxTSpWqSMZCP2XTTbl5lg.gif");*/
+    background-size: cover;
+}
+#dino{
+    width: 25vw;
+    height: 24vw;
+    position: relative;
+    background-image: url("polarbear.gif");
+    top: 13vw;
+    background-size: cover;
+}
+#rock{
+    width: 8vw;
+    height: 4vw;
+    position: relative;
+    background-image: url("rock.png");
+    left: 70.5vw;
+    top: 9vw;
+    background-size: cover;
+    animation: rock 1.33s infinite;
+}
+
+@keyframes rock{
+    0%{left: 70.5vw;}
+    100%{left: -7vw;}
+}
+/*
+#rock1{
+    width: 10vw;
+    height: 6vw;
+    position: relative;
+    background-image: url("rock.png");
+    left: 90vw;
+    top: 3vw;
+    background-size: cover;
+    animation: rock 1.33s infinite;
+}
+
+@keyframes rock1{
+    0%{left: 90vw;}
+    100%{left: -7vw;}
+}
+*/
+.jump-animation{
+    animation: jump 0.5s;
+}
+@keyframes jump{
+    0%{top: 10vw;}
+    50%{top: 0.5vw;}
+    75%{top: 0.5vw;}
+    100%{top: 10vw;}
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5vw;
+}
+#score{
+    text-align: center;
+    color: white;
+}
